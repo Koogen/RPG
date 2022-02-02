@@ -19,7 +19,7 @@ public class RPGDemo {
 
     public static int rng(int min, int max) {
         return (int) ((Math.random() * (max - min)) + min);
-    }//end getRandomHeight
+    }//end getRandom
 
     public static int getRandomWeight(int minWeight, int maxWeight) {
         return (int) ((Math.random() * (maxWeight - minWeight)) + minWeight);
